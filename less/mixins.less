@@ -1,1 +1,18 @@
 // Mixins in here
+
+@button-bg: @eastern-blue;
+
+.btn(@background, @border-radius) {
+    background-color: @background;
+    border-radius: @border-radius;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    width: 80%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px @eastern-blue;
+}
+
